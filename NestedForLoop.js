@@ -26,3 +26,39 @@ for (let i=0;i<4;i++)
     }
     document.write("</br>");
 }
+
+// Nested For Loop Task 3 Star Pyramid
+
+for(let cntr1=0;cntr1<10;cntr1++)
+{
+    for(let cntr2=0;cntr2<=10-cntr1;cntr2++)
+    {
+        document.write("&nbsp;");
+    }
+    for(let cntr3=0; cntr3<=cntr1;cntr3++)
+    {
+        
+        document.write("*\t");
+        
+    }
+    
+    document.write("</br>");
+}
+
+// Nested For Loop Task 4
+
+for(let star1=0;star1<10;star1++)
+{
+    for(let star2=0;star2<=10;star2++)
+    {
+        document.write("&nbsp;");
+    }
+    for(let star3=0; star3<=star1;star3++)
+    {
+        
+        document.write("*\t");
+        
+    }
+    
+    document.write("</br>");
+}
